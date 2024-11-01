@@ -11,7 +11,7 @@ RUN wget -O /tmp/base.tar.gz "https://github.com/nathan-l/core/archive/master.ta
     && mv /tmp/base/* . \
     && chmod -R 755 *
 
-FROM ghcr.io/hass-emulated-hue/core:master
+FROM ghcr.io/hass-emulated-hue/core:885
 
 # Copy root filesystem
 COPY --from=downloader /base/docker/rootfs-dev/ /
