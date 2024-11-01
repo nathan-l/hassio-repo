@@ -5,7 +5,7 @@ FROM alpine:3.12 as downloader
 WORKDIR /base
 
 # Buildkit isn't supported on hass
-RUN wget -O /tmp/base.tar.gz "https://github.com/nathan-l/core/master.tar.gz" \
+RUN wget -O /tmp/base.tar.gz "https://github.com/nathan-l/core/archive/master.tar.gz" \
     && mkdir -p /tmp/base \
     && tar zxvf /tmp/base.tar.gz --strip 1 -C /tmp/base \
     && mv /tmp/base/* . \

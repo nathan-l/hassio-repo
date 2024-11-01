@@ -1,6 +1,6 @@
 {
   "name": "Emulated HUE (dev)",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Hue Emulation for Home Assistant Nathan-l fork",
   "url": "https://github.com/nathan-l/core",
   "slug": "emulated_hue_dev",
